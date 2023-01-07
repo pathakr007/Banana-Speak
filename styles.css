@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Noto+Sans:wght@400;700&display=swap');
+
+body 
+{
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: yellow;
+    border-radius: 1rem;
+    border-color: red;
+    border-style: solid;
+    margin: 2rem 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container {
+    display: flexbox;
+}
