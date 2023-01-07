@@ -4,6 +4,7 @@ body
 {
 font-family: 'Merriweather', serif;
 font-family: 'Noto Sans', sans-serif;
+background-color: #e2e8f0;
 }
 
 header {
@@ -11,11 +12,73 @@ header {
     border-radius: 1rem;
     border-color: red;
     border-style: solid;
-    margin: 2rem 2rem;
+    padding: 0%;
+    margin: 0.5rem 1rem;
     font-weight: bolder;
     text-align: center;
 }
 
-.container {
-    display: flexbox;
+.container{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin:2rem auto;
+    padding:1rem;
+    
 }
+
+p{
+    color:#112031;
+    font-weight: bold;
+}
+textarea{
+    display:block;
+    border-style: solid;
+    margin: 10px 0px;
+    padding: 1rem;
+    height:10vh;
+    border-radius: 0.5rem;
+    border-color: red;
+    border-width: 0.09cm;
+    padding: 1rem;
+    
+
+}
+
+#output-div{
+    border-radius: 1rem;
+    border-color: red;
+    border-style: solid;
+    height: 10vh;
+    margin:5px 0px;
+    width:95%;
+    background-color: yellow;
+    font-weight: bold;
+    color:#112031;
+    padding:1rem
+}
+
+#output-text{
+    font-weight: bold;
+    color:#112031;
+}
+
+button{
+    margin-bottom: 10px;
+    display:block;
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: yellow;
+    border-color: red;
+    border-style: solid; 
+    font-size: 1rem;
+    font-weight: bold;
+    color:black
+    
+}
+
+img{
+    display: block;
+    width:20%;
+    margin:0 auto;
